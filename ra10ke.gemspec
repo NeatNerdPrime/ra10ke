@@ -16,7 +16,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
   spec.required_ruby_version = '>= 2.7.0'
 
-  spec.add_dependency 'git', '~> 1.18'
+  spec.add_dependency 'git', '>= 1.18', '< 3.0'
   spec.add_dependency 'puppet_forge', '~> 5.0', '>= 5.0.1'
   spec.add_dependency 'r10k', '>= 2.6.5', '< 5'
   spec.add_dependency 'rake', '~> 13.0', '>= 13.0.6'
@@ -26,5 +26,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'pry', '~> 0.14.2'
   spec.add_development_dependency 'rspec', '~> 3.6'
   spec.add_development_dependency 'simplecov', '~> 0.22.0'
-  spec.add_development_dependency 'voxpupuli-rubocop', '~> 2.6.0'
+  spec.add_development_dependency 'voxpupuli-rubocop', '~> 2.8.0'
 end
